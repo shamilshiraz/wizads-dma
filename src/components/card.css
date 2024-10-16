@@ -1,0 +1,100 @@
+.cardContainer{
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: sticky;
+ top: 0;
+ margin-top: 25vh;
+ flex-direction: column;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(31, 29, 29);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    /* border-radius: 25px; */
+    /* background-image: url('./juptexture.jpeg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chead{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.cbody{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.imgcontainer{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    /* border-radius: 25px; */
+    overflow: hidden;
+    padding-right: 30px;
+}
+.inner{
+    width: 100%;
+    height: 100%;
+}
+.imgcontainer .inner img{
+    object-fit: cover;
+}
+.card p{
+    width: 350px;
+    font-family: 'light';
+    color: rgb(211, 210, 208);
+}
+
+
+/* Media Query for Tablets */
+@media only screen and (max-width: 1028px) {
+  .card {
+    width: 400px; /* Reduce width on smaller screens */
+    height: 600px; /* Reduce height */
+    padding: 10;
+  }
+
+  .chead {
+    font-size: 32px; /* Reduce font size */
+  }
+
+  .imgcontainer {
+    height: 250px; /* Reduce image container height */
+  }
+
+  .card p {
+    font-size: 24px; /* Smaller text */
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 480px) {
+  .cardContainer {
+    margin-top: 15vh; /* Adjust margin for mobile */
+  }
+
+  .card {
+    width: 250px; /* Reduce card width for mobile */
+    height: 350px; /* Reduce card height for mobile */
+  }
+
+  .chead {
+    font-size: 18px; /* Reduce heading font size for mobile */
+  }
+
+  .imgcontainer {
+    height: 200px; /* Smaller image container */
+  }
+
+  .card p {
+    font-size: 14px; /* Smaller paragraph text */
+    width: 230px;
+  }
+
+}
