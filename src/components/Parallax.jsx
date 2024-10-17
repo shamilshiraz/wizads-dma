@@ -11,7 +11,7 @@ function Parallax() {
         offset:['start start','end end']
     })
 
-    const scale4=useTransform(scrollYProgress,[0,1],[1,4.5])
+    const scale4=useTransform(scrollYProgress,[0,1],[1,4])
 
 
 

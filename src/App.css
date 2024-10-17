@@ -78,11 +78,14 @@ body{
     width: 100vw;
     overflow: hidden;
   }
+  .cc{
+    margin-top: 50vh;
+  }
 }
 @media only screen and
-(min-width: 728px), (max-width: 1028px){
+(min-width: 728px), (max-width: 1024px){
   .cursor{
-    display: none;
+    /* display: none; */
   }
   .cursor2{
     display: none;
@@ -94,5 +97,8 @@ body{
   body{
     width: 100vw;
     overflow: hidden;
+  }
+  .cc{
+    margin-top: 50vh;
   }
 }

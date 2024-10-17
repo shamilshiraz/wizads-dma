@@ -18,7 +18,7 @@ function Sphere() {
     })
 
     const [color ,normal ,aoMap]=useLoader(TextureLoader,[
-        '/t6.jpeg',
+        '/ht.png',
         '/t8.jpg',
         '/wizadsbg2.avif'
     ])
