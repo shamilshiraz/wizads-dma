@@ -83,12 +83,12 @@ body{
   }
 }
 @media only screen and
-(min-width: 728px), (max-width: 1024px){
+(min-width: 728px), (max-width: 1380px),(max-height:1100px){
   .cursor{
     /* display: none; */
   }
   .cursor2{
-    display: none;
+    /* display: none; */
   }
   .cshead{
     font-size: 64px;
