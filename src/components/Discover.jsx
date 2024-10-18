@@ -3,7 +3,7 @@ import React from 'react'
 
 function Discover() {
   return (
-    <div className='discover'>
+    <div className='discover' style={{backgroundImage:'url(/interstellar.webp)'}}>
         <div className="dischead">
             DISCOVER
         </div>
