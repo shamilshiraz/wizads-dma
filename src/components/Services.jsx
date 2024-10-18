@@ -17,7 +17,7 @@ function Services() {
 
 
   return (
-    <div className="services">
+    <div className="services" style={{backgroundImage:'url(/t3.avif)'}}>
         <div className="servicesh">Our services.</div>
         <div className="serviceleft" >
             <div className="sd" data-aos="flip-left">

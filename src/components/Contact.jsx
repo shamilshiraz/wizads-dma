@@ -62,7 +62,7 @@ function Contact() {
           <a href=''>LI</a>
         </div>
       </form>
-      <div className="contactss"></div>
+      <div className="contactss" style={{backgroundImage:'url(/)'}}></div>
     </div>
   );
 }

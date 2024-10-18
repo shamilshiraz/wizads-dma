@@ -15,7 +15,7 @@ function Magic() {
         <a href="">INST</a>&nbsp;<a href="">LI</a></p>
         </div>
 
-        <div className="magicircle">
+        <div className="magicircle" style={{backgroundImage:'url(/bg/spcbg.jpeg)'}}>
             {/* <div className="incirc">
          </div> */}
 
