@@ -43,9 +43,9 @@
 
  @media only screen 
  and (min-width: 320px) /* Smallest screen width, iPhone SE */
- and (max-width: 430px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
+ and (max-width: 431px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
  and (min-height: 640px) /* Minimum height for smaller devices */
- and (max-height: 926px) /* Largest height for tall phones like iPhone 14 Pro Max */{
+ and (max-height: 933px)/* Largest height for tall phones like iPhone 14 Pro Max */{
     .spellbook{
         height: 60vh;
     }
@@ -180,9 +180,9 @@ a{
 
 @media only screen 
   and (min-width: 320px) /* Smallest screen width, iPhone SE */
-  and (max-width: 430px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
+  and (max-width: 431px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
   and (min-height: 640px) /* Minimum height for smaller devices */
-  and (max-height: 926px) /* Largest height for tall phones like iPhone 14 Pro Max */{
+  and (max-height: 933px)/* Largest height for tall phones like iPhone 14 Pro Max */{
   
   /* Styles specifically for iPhone 12 */
   body {
@@ -288,9 +288,9 @@ a{
 }
 @media only screen 
   and (min-width: 320px) /* Smallest screen width, iPhone SE */
-  and (max-width: 430px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
+  and (max-width: 431px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
   and (min-height: 640px) /* Minimum height for smaller devices */
-  and (max-height: 926px) /* Largest height for tall phones like iPhone 14 Pro Max */ {
+  and (max-height: 933px) /* Largest height for tall phones like iPhone 14 Pro Max */ {
     .discover{
         height: 60vh;
     }
@@ -383,9 +383,9 @@ a{
 }
 @media only screen 
   and (min-width: 320px) /* Smallest screen width, iPhone SE */
-  and (max-width: 430px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
+  and (max-width: 431px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
   and (min-height: 640px) /* Minimum height for smaller devices */
-  and (max-height: 926px) /* Largest height for tall phones like iPhone 14 Pro Max */
+  and (max-height: 933px)/* Largest height for tall phones like iPhone 14 Pro Max */
   {
 #prlxh{
     font-size: 64px;
@@ -566,8 +566,6 @@ button:hover{
         overflow: hidden;
         border: 1px solid rgba(104, 102, 102, 0.578);
         margin-inline: 10vw;
-        background-image: url('t3.avif');
-
     }
     #contacth{
         /* font-family: 'editors'; */
@@ -580,7 +578,6 @@ button:hover{
         width: 200px;
         transform: rotate(270deg);
         border-radius: 500px 500px 0px 0px ;
-        background-image: url('t3.avif');
         margin-top: -00px;
     
     }
