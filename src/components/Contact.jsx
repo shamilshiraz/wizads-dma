@@ -29,8 +29,15 @@ function Contact() {
     });
   };
 
+  const isMobile = window.innerWidth <= 768; // Define a mobile screen size (768px is commonly used as the mobile breakpoint)
+
+  const contactStyle = isMobile
+    ? { backgroundImage:'url(/t3.avif)' } // Your desired background style for mobile
+    : {};
+
+
   return (
-    <div className="contact">
+    <div className="contact" style={contactStyle}>
       <p id='contacth'>Contact</p>
       <form id='form' onSubmit={sendEmail}>
         <label htmlFor="email">Email</label>

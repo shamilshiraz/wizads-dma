@@ -12,7 +12,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid rgba(66, 64, 64, 0.484);
-  overflow: auto;
+  overflow: hidden;
   cursor: none;
 }
 .appcont{
@@ -64,7 +64,11 @@ body{
   background-size: cover;
 
 }
-@media only screen and (max-width: 480px){
+@media only screen 
+  and (min-width: 320px) /* Smallest screen width, iPhone SE */
+  and (max-width: 431px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
+  and (min-height: 640px) /* Minimum height for smaller devices */
+  and (max-height: 933px){
   .cursor{
     display: none;
   }
@@ -76,6 +80,7 @@ body{
   }
   body{
     width: 100vw;
+    overflow: auto;
   }
   .cc{
     margin-top: 50vh;
@@ -96,6 +101,7 @@ body{
   }
   body{
     width: 100vw;
+    overflow: auto;
   }
   .cc{
     margin-top: 50vh;

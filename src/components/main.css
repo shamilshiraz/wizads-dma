@@ -194,7 +194,7 @@ a{
     border-radius: 50%;
     border: 1px solid rgba(104, 102, 102, 0.578);
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-image: url('/bg/spcbg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,10 +544,10 @@ button:hover{
 }
 
 @media only screen 
-  and (min-width: 320px) /* Smallest screen width, iPhone SE */
-  and (max-width: 430px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
-  and (min-height: 640px) /* Minimum height for smaller devices */
-  and (max-height: 926px) /* Largest height for tall phones like iPhone 14 Pro Max */{
+and (min-width: 320px) /* Smallest screen width, iPhone SE */
+and (max-width: 431px) /* Largest width, such as iPhone 14 Pro Max, Samsung Galaxy S23 Ultra */
+and (min-height: 640px) /* Minimum height for smaller devices */
+and (max-height: 933px) /* Largest height for tall phones like iPhone 14 Pro Max */{
     #input{
         width: 250px;
         height: 30px;
@@ -561,12 +561,13 @@ button:hover{
         color: rgb(244, 238, 238);
     }
     .contact{
-        height: 100vh;
+        height: 80vh;
         width: 80vw;
         overflow: hidden;
         border: 1px solid rgba(104, 102, 102, 0.578);
         margin-inline: 10vw;
         background-image: url('./t3.avif');
+        margin-block: 20vh;
     }
     #contacth{
         /* font-family: 'editors'; */
