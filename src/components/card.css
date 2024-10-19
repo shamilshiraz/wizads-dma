@@ -4,13 +4,13 @@
  align-items: center;
  justify-content: center;
  position: sticky;
- top: 0;
+ top: 80px;
  margin-top: 25vh;
  flex-direction: column;
 }
 .card{
     width: 350px;
-    height: 500px;
+    height: 450px;
     background-color: rgb(31, 29, 29);
     border: 3px solid rgb(255, 255, 255);
     padding: 10px;

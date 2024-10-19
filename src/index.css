@@ -10,6 +10,10 @@
   font-family: 'light';
   src: url('./fonts/TestSohne-Leicht-BF663d89cd4952e.otf');
 }
+@font-face {
+  font-family: 'pixel';
+  src: url('./fonts/Market_Deco.ttf');
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

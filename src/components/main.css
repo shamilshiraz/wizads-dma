@@ -502,7 +502,7 @@ a{
     margin-inline: 10vw;
 }
 #contacth{
-    /* font-family: 'editors'; */
+    font-family: 'editors';
     font-size: 128px;
 }
 .contactss{
@@ -566,6 +566,7 @@ button:hover{
         overflow: hidden;
         border: 1px solid rgba(104, 102, 102, 0.578);
         margin-inline: 10vw;
+        background-image: url('./t3.avif');
     }
     #contacth{
         /* font-family: 'editors'; */
@@ -657,7 +658,6 @@ button:hover{
         background-color: rgb(16, 15, 15);
         height: 30px;
         width: 100px;
-        font-family: 'sohne';
         font-size: 18px;
         margin-left:155px ;
         border: 1px solid white;

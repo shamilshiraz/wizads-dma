@@ -7,7 +7,7 @@ function Spellbook() {
                 <div className="semi-circlespell" style={{fontFamily:'editors'}}>
                     <p className='spellpri'>Our guiding principles</p>
                 </div>
-        <p className='spellhead'><span style={{fontFamily:'editors'}}>The</span>Spellbook</p>
+        <p className='spellhead'><span style={{fontFamily:'editors'}}>The</span> &nbsp;Spellbook</p>
         <hr className='spellhr'/>
         <div className="spellparacont">
             <div className="spellpara">
