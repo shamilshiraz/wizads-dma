@@ -107,7 +107,7 @@ function App() {
           <Spwl />
           <Parallax />
 
-          <div className="cc" ref={container}>
+          <div className="cc" ref={container} style={{backgroundImage:'url(./starry.jpg)'}}>
             <p className='cshead'>Our services</p>
             {services.map((service, index) => {
               const targetScale = 1 - ((services.length - index) * 0.08);

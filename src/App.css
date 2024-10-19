@@ -52,14 +52,14 @@ body{
   /* font-family: 'editors'; */
 }
 .cc{
-  margin-bottom: 25vh;
+  margin-bottom: 50vh;
   margin-top: 100vh;
   /* border: 1px solid rgb(64, 62, 62); */
   /* width: 80vw; */
   /* height: 100vh; */
   /* overflow: hidden; */
   /* margin-inline: 10vw; */
-  background: url('./starry.JPG');
+  /* background: url('./starry.jpg'); */
   background-repeat:round;
   background-size: cover;
 
@@ -79,6 +79,7 @@ body{
   }
   .cc{
     margin-top: 50vh;
+    margin-bottom: 25vh;
   }
 }
 @media only screen and
@@ -98,5 +99,6 @@ body{
   }
   .cc{
     margin-top: 50vh;
+    margin-bottom: 25vh;
   }
 }
