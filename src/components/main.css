@@ -460,148 +460,6 @@ a{
     }
 }
 
-/* SERVICES */
-
-.services{
-    /* width: 80vw;
-    margin-inline: 10vw; */
-    border-inline: 1px solid rgba(104, 102, 102, 0.578);
-    border-bottom: 1px solid rgba(104, 102, 102, 0.578);
-    padding-block: 50vh;
-}
-.servicesh{
-    font-family: 'editors';
-    font-size: 128px;
-}
-#servicesub{
-    font-size: 48px;
-}
-.servi-circle{
-    width: 500px;
-    height: 50px;
-    background-color: blue;
-    position: absolute;
-    bottom: 0;
-    border-top-left-radius: 100vw;
-    border-top-right-radius: 100vw;
-}
-
-#servicep{
-    /* border: 1px solid rgba(104, 102, 102, 0.578); */
-    font-size: 36px;
-    margin-bottom: -20px;  
-    border-bottom: 1px solid rgba(104, 102, 102, 0.578);
-}
-.parallelogram {
-    width: 300px;       /* Set the width */
-    height: 700px;      /* Set the height */
-    background-color: #3498db; /* Background color */
-    transform: skew(340deg);   /* Skew the div to make it a parallelogram */
-    margin: 50px;       /* Optional: Add margin for spacing */
-    background-image: url('./interstellar.webp');
-    position: absolute;
-    margin-left: 40%;
-}
-
-.serviceleft{
-    display: flex;
-    margin-inline: 50px;   
-}
-.servicesdes{
-    display: flex;
-    width: 600px;
-}
-#servicespara{
-    margin-left: 20px;
-}
-.sd{
-    position: relative;
-    z-index: 5;
-}
-.sd2{
-    margin-top: 300px;
-    position: relative;
-    z-index: 5;
-    margin-left: 250px;
-}
-.sd3{
-    position: relative;
-    z-index: 5;
-    margin-left: 200px;
-    margin-top: 40px;
-}
-.sd4{
-    position: relative;
-    z-index: 5;
-    margin-top: 300px;
-    margin-left: 50px;
-}
-.sdimg{
-    height: 200px;
-    width: 300px;
-}
-
-.serviceright{
-    display: flex;
-}
-.parallelogram2 {
-    width: 300px;       /* Set the width */
-    height: 700px;      /* Set the height */
-    background-color: #3498db; /* Background color */
-    transform: skew(20deg);   /* Skew the div to make it a parallelogram */
-    margin: 50px;       /* Optional: Add margin for spacing */
-    background-image: url('./interstellar.webp');
-    position: absolute;
-    margin-left: 43%;
-    margin-top: 90px;
-}
-.sn1{
-    display: flex;
-    margin-top: 40vh;
-    width: 80vw;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-inline: 10vw;
-}
-.sn1 p{
-    width: 500px;
-    text-align: right;
-}
-.sn2{
-    display: flex;
-    margin-top: 40vh;
-    width: 80vw;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-inline: 10vw;
-}
-.sn2 p{
-    width: 500px;
-  
-}
-
-
-/* SERVICES TRY */
-
-
-.stmhead{
-    font-size: 140px;
-    margin-bottom: -0px;
-    position: sticky;
-    top: 0;
-}
-.servicestry{
-    width: 100vw;
-    margin-block: 50vh;
-    height: 300vh;
-}
-.serviceholder{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
 
 
 /* CARD */
@@ -779,7 +637,7 @@ button:hover{
     }
     #contacth{
         /* font-family: 'editors'; */
-        font-size: 184px;
+        font-size: 124px;
         padding-left: 20px;
     }
     .contactss{
@@ -793,7 +651,7 @@ button:hover{
     
     }
     #form{
-        padding-left: 400px;
+        padding-left: 200px;
         z-index: 30;
     }
     button{
