@@ -20,7 +20,7 @@ export const services=[
         src:'t4.jpeg'
     }, 
     {
-        title:'SEO & Google ads',
+        title:'SEO and Google ads',
         description:'We use powerful Google Ads and expert SEO strategies to drive high-quality traffic to your website, ensuring your brand stays visible and connects effectively with your target audience.',
         src:'t5.jpeg'
     }, 
@@ -30,8 +30,8 @@ export const services=[
         src:'t8.jpg'
     },
     {
-        title:'Branding and Google',
-        description:'Our UI/UX designs prioritize intuitive, functional experiences that ensure smooth, engaging interactions, keeping customers coming back.',
+        title:'Branding and Google ads',
+        description:'We help you build a strong, consistent brand identity that resonates with your audience, ensuring your brand stands out and leaves a lasting impression.',
         src:'t7.jpg'
     },
 
