@@ -12,7 +12,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid rgba(66, 64, 64, 0.484);
-  overflow: hidden;
+  overflow: auto;
   cursor: none;
 }
 .appcont{
