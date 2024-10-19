@@ -567,7 +567,7 @@ and (max-height: 933px) /* Largest height for tall phones like iPhone 14 Pro Max
         border: 1px solid rgba(104, 102, 102, 0.578);
         margin-inline: 10vw;
         background-image: url('./t3.avif');
-        margin-block: 20vh;
+        margin-bottom: 10vh;
     }
     #contacth{
         /* font-family: 'editors'; */
